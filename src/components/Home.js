@@ -10,7 +10,7 @@ class Home extends Component {
       this.setState({
         posts: res.data.slice(0, 10),
       });
-      console.log(this.state.posts);
+      // console.log(this.state.posts);
     });
   }
   render() {
